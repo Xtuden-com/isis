@@ -537,7 +537,7 @@
 							<!-- seemingly not compatible with use of 2.0.0-SNAPSHOT placeholders
 								<requirePluginVersions> <message>All plugin versions must be defined!</message> 
 								<banLatest>true</banLatest> <banRelease>true</banRelease> </requirePluginVersions> -->
-							<DependencyConvergence />
+							<DependencyConvergence/>
 						</rules>
 					</configuration>
 					<!-- goal:enforce supposedly binds to phase:validate, but explicit binding 
@@ -697,7 +697,7 @@
 			<dependency>
 				<groupId>org.apache.isis.viewer</groupId>
 				<artifactId>isis-viewer-restfulobjects-applib</artifactId>
-				<version>2.0.0-SNAPSHOT</version>
+				<version>2.3.0</version>
 			</dependency>
 			<dependency>
 				<groupId>org.apache.isis.viewer</groupId>

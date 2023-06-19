@@ -109,7 +109,7 @@
 		<findbugs-annotations.version>3.0.1u2</findbugs-annotations.version>
 
 		<git-commit-id-plugin.version>4.0.3</git-commit-id-plugin.version>
-		<guava.version>30.0-jre</guava.version>
+		<guava.version>32.0.0-jre</guava.version>
 
 		<htmlparser.version>2.1</htmlparser.version>
 
@@ -537,7 +537,7 @@
 							<!-- seemingly not compatible with use of 2.0.0-SNAPSHOT placeholders
 								<requirePluginVersions> <message>All plugin versions must be defined!</message> 
 								<banLatest>true</banLatest> <banRelease>true</banRelease> </requirePluginVersions> -->
-							<DependencyConvergence />
+							<DependencyConvergence/>
 						</rules>
 					</configuration>
 					<!-- goal:enforce supposedly binds to phase:validate, but explicit binding 
